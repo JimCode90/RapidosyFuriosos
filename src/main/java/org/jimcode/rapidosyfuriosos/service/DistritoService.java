@@ -6,10 +6,10 @@ import java.util.List;
 
 public interface DistritoService {
     // Declaramos las operaciones con las cuales vamos a trabajar
-    // Mostrar distrito
+    // Mostrar distritos
     List<DistritoEntity> findAll();
 
-    // Mostrar distrito habilitado
+    // Mostrar distritos habilitado
     List<DistritoEntity> findAllCustom();
 
     // Buscar distrito por código
@@ -21,9 +21,9 @@ public interface DistritoService {
     // Actualizar distrito
     DistritoEntity update(DistritoEntity distritoEntity, Long id);
 
-    // Eliminar de manera lógica
+    // Eliminar de manera lógica un distrito
     DistritoEntity delete(Long id);
 
-    // Habilitar distrito
+    // Habilitar un distrito
     DistritoEntity enable (Long id);
 }
